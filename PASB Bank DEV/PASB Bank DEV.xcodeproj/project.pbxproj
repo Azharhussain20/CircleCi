@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1633E0027D9E81867D80C467 /* Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B15A4422796D94BC9F4C00 /* Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework */; };
+		72F3B2E081180066EE33197E /* Pods_PASB_Bank_DEVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA45866FBEA6001D142CCF2 /* Pods_PASB_Bank_DEVTests.framework */; };
+		B1B4925D1F9FF89A64CE2E15 /* Pods_PASB_Bank_DEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66689FADC9BDFA82D9504481 /* Pods_PASB_Bank_DEV.framework */; };
+		CB9862192B5A87D8002123F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9862182B5A87D8002123F9 /* AppDelegate.swift */; };
+		CB98621D2B5A87D8002123F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98621C2B5A87D8002123F9 /* ViewController.swift */; };
+		CB9862202B5A87D8002123F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98621E2B5A87D8002123F9 /* Main.storyboard */; };
+		CB9862222B5A87DA002123F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9862212B5A87DA002123F9 /* Assets.xcassets */; };
+		CB9862252B5A87DA002123F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9862232B5A87DA002123F9 /* LaunchScreen.storyboard */; };
+		CB9862302B5A87DA002123F9 /* PASB_Bank_DEVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98622F2B5A87DA002123F9 /* PASB_Bank_DEVTests.swift */; };
+		CB98623A2B5A87DA002123F9 /* PASB_Bank_DEVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9862392B5A87DA002123F9 /* PASB_Bank_DEVUITests.swift */; };
+		CB98623C2B5A87DA002123F9 /* PASB_Bank_DEVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98623B2B5A87DA002123F9 /* PASB_Bank_DEVUITestsLaunchTests.swift */; };
+		CB98624A2B5A892B002123F9 /* config.yml in Resources */ = {isa = PBXBuildFile; fileRef = CB9862492B5A892B002123F9 /* config.yml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB98622C2B5A87DA002123F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB98620D2B5A87D8002123F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9862142B5A87D8002123F9;
+			remoteInfo = "PASB Bank DEV";
+		};
+		CB9862362B5A87DA002123F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB98620D2B5A87D8002123F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9862142B5A87D8002123F9;
+			remoteInfo = "PASB Bank DEV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0303050F29B82ED0486AA594 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEV-PASB Bank DEVUITests.debug.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEV-PASB Bank DEVUITests/Pods-PASB Bank DEV-PASB Bank DEVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DA7A3BB246E2B83E6229819 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEV-PASB Bank DEVUITests.release.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEV-PASB Bank DEVUITests/Pods-PASB Bank DEV-PASB Bank DEVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BB2488701EFC6E7077F9469 /* Pods-PASB Bank DEVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEVTests.debug.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEVTests/Pods-PASB Bank DEVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA45866FBEA6001D142CCF2 /* Pods_PASB_Bank_DEVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASB_Bank_DEVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66689FADC9BDFA82D9504481 /* Pods_PASB_Bank_DEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASB_Bank_DEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75DB02BA0B003326635DD5C /* Pods-PASB Bank DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEV.release.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEV/Pods-PASB Bank DEV.release.xcconfig"; sourceTree = "<group>"; };
+		B187AD52634A6B0F41E17189 /* Pods-PASB Bank DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEV.debug.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEV/Pods-PASB Bank DEV.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9862152B5A87D8002123F9 /* PASB Bank DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PASB Bank DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9862182B5A87D8002123F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB98621C2B5A87D8002123F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB98621F2B5A87D8002123F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9862212B5A87DA002123F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9862242B5A87DA002123F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9862262B5A87DA002123F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB98622B2B5A87DA002123F9 /* PASB Bank DEVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PASB Bank DEVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB98622F2B5A87DA002123F9 /* PASB_Bank_DEVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASB_Bank_DEVTests.swift; sourceTree = "<group>"; };
+		CB9862352B5A87DA002123F9 /* PASB Bank DEVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PASB Bank DEVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9862392B5A87DA002123F9 /* PASB_Bank_DEVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASB_Bank_DEVUITests.swift; sourceTree = "<group>"; };
+		CB98623B2B5A87DA002123F9 /* PASB_Bank_DEVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASB_Bank_DEVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB9862492B5A892B002123F9 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = config.yml; sourceTree = "<group>"; };
+		F7B15A4422796D94BC9F4C00 /* Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92CE4832D0EC904726538D6 /* Pods-PASB Bank DEVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASB Bank DEVTests.release.xcconfig"; path = "Target Support Files/Pods-PASB Bank DEVTests/Pods-PASB Bank DEVTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9862122B5A87D8002123F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B4925D1F9FF89A64CE2E15 /* Pods_PASB_Bank_DEV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862282B5A87DA002123F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F3B2E081180066EE33197E /* Pods_PASB_Bank_DEVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862322B5A87DA002123F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1633E0027D9E81867D80C467 /* Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB98620C2B5A87D8002123F9 = {
+			isa = PBXGroup;
+			children = (
+				CB9862172B5A87D8002123F9 /* PASB Bank DEV */,
+				CB98622E2B5A87DA002123F9 /* PASB Bank DEVTests */,
+				CB9862382B5A87DA002123F9 /* PASB Bank DEVUITests */,
+				CB9862162B5A87D8002123F9 /* Products */,
+				EEC0E60EC92A73813B85A7D9 /* Pods */,
+				DDC06EE5CDA99169B1CBFD04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9862162B5A87D8002123F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9862152B5A87D8002123F9 /* PASB Bank DEV.app */,
+				CB98622B2B5A87DA002123F9 /* PASB Bank DEVTests.xctest */,
+				CB9862352B5A87DA002123F9 /* PASB Bank DEVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9862172B5A87D8002123F9 /* PASB Bank DEV */ = {
+			isa = PBXGroup;
+			children = (
+				CB9862482B5A88E5002123F9 /* PASB Bank Dev.circleci */,
+				CB9862182B5A87D8002123F9 /* AppDelegate.swift */,
+				CB98621C2B5A87D8002123F9 /* ViewController.swift */,
+				CB98621E2B5A87D8002123F9 /* Main.storyboard */,
+				CB9862212B5A87DA002123F9 /* Assets.xcassets */,
+				CB9862232B5A87DA002123F9 /* LaunchScreen.storyboard */,
+				CB9862262B5A87DA002123F9 /* Info.plist */,
+			);
+			path = "PASB Bank DEV";
+			sourceTree = "<group>";
+		};
+		CB98622E2B5A87DA002123F9 /* PASB Bank DEVTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB98622F2B5A87DA002123F9 /* PASB_Bank_DEVTests.swift */,
+			);
+			path = "PASB Bank DEVTests";
+			sourceTree = "<group>";
+		};
+		CB9862382B5A87DA002123F9 /* PASB Bank DEVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9862392B5A87DA002123F9 /* PASB_Bank_DEVUITests.swift */,
+				CB98623B2B5A87DA002123F9 /* PASB_Bank_DEVUITestsLaunchTests.swift */,
+			);
+			path = "PASB Bank DEVUITests";
+			sourceTree = "<group>";
+		};
+		CB9862482B5A88E5002123F9 /* PASB Bank Dev.circleci */ = {
+			isa = PBXGroup;
+			children = (
+				CB9862492B5A892B002123F9 /* config.yml */,
+			);
+			path = "PASB Bank Dev.circleci";
+			sourceTree = "<group>";
+		};
+		DDC06EE5CDA99169B1CBFD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66689FADC9BDFA82D9504481 /* Pods_PASB_Bank_DEV.framework */,
+				F7B15A4422796D94BC9F4C00 /* Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests.framework */,
+				2DA45866FBEA6001D142CCF2 /* Pods_PASB_Bank_DEVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC0E60EC92A73813B85A7D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B187AD52634A6B0F41E17189 /* Pods-PASB Bank DEV.debug.xcconfig */,
+				A75DB02BA0B003326635DD5C /* Pods-PASB Bank DEV.release.xcconfig */,
+				0303050F29B82ED0486AA594 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.debug.xcconfig */,
+				0DA7A3BB246E2B83E6229819 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.release.xcconfig */,
+				1BB2488701EFC6E7077F9469 /* Pods-PASB Bank DEVTests.debug.xcconfig */,
+				F92CE4832D0EC904726538D6 /* Pods-PASB Bank DEVTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9862142B5A87D8002123F9 /* PASB Bank DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB98623F2B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEV" */;
+			buildPhases = (
+				FF2C9D74287DEA5BDD21AE25 /* [CP] Check Pods Manifest.lock */,
+				CB9862112B5A87D8002123F9 /* Sources */,
+				CB9862122B5A87D8002123F9 /* Frameworks */,
+				CB9862132B5A87D8002123F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PASB Bank DEV";
+			productName = "PASB Bank DEV";
+			productReference = CB9862152B5A87D8002123F9 /* PASB Bank DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB98622A2B5A87DA002123F9 /* PASB Bank DEVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9862422B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEVTests" */;
+			buildPhases = (
+				3BF057B0FEB54E9DE85FB147 /* [CP] Check Pods Manifest.lock */,
+				CB9862272B5A87DA002123F9 /* Sources */,
+				CB9862282B5A87DA002123F9 /* Frameworks */,
+				CB9862292B5A87DA002123F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB98622D2B5A87DA002123F9 /* PBXTargetDependency */,
+			);
+			name = "PASB Bank DEVTests";
+			productName = "PASB Bank DEVTests";
+			productReference = CB98622B2B5A87DA002123F9 /* PASB Bank DEVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9862342B5A87DA002123F9 /* PASB Bank DEVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9862452B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEVUITests" */;
+			buildPhases = (
+				0B178AFADD9D5E770352A2EA /* [CP] Check Pods Manifest.lock */,
+				CB9862312B5A87DA002123F9 /* Sources */,
+				CB9862322B5A87DA002123F9 /* Frameworks */,
+				CB9862332B5A87DA002123F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9862372B5A87DA002123F9 /* PBXTargetDependency */,
+			);
+			name = "PASB Bank DEVUITests";
+			productName = "PASB Bank DEVUITests";
+			productReference = CB9862352B5A87DA002123F9 /* PASB Bank DEVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB98620D2B5A87D8002123F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CB9862142B5A87D8002123F9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CB98622A2B5A87DA002123F9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CB9862142B5A87D8002123F9;
+					};
+					CB9862342B5A87DA002123F9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CB9862142B5A87D8002123F9;
+					};
+				};
+			};
+			buildConfigurationList = CB9862102B5A87D8002123F9 /* Build configuration list for PBXProject "PASB Bank DEV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB98620C2B5A87D8002123F9;
+			productRefGroup = CB9862162B5A87D8002123F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9862142B5A87D8002123F9 /* PASB Bank DEV */,
+				CB98622A2B5A87DA002123F9 /* PASB Bank DEVTests */,
+				CB9862342B5A87DA002123F9 /* PASB Bank DEVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9862132B5A87D8002123F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98624A2B5A892B002123F9 /* config.yml in Resources */,
+				CB9862252B5A87DA002123F9 /* LaunchScreen.storyboard in Resources */,
+				CB9862222B5A87DA002123F9 /* Assets.xcassets in Resources */,
+				CB9862202B5A87D8002123F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862292B5A87DA002123F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862332B5A87DA002123F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B178AFADD9D5E770352A2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASB Bank DEV-PASB Bank DEVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF057B0FEB54E9DE85FB147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASB Bank DEVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2C9D74287DEA5BDD21AE25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASB Bank DEV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9862112B5A87D8002123F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98621D2B5A87D8002123F9 /* ViewController.swift in Sources */,
+				CB9862192B5A87D8002123F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862272B5A87DA002123F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9862302B5A87DA002123F9 /* PASB_Bank_DEVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9862312B5A87DA002123F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98623C2B5A87DA002123F9 /* PASB_Bank_DEVUITestsLaunchTests.swift in Sources */,
+				CB98623A2B5A87DA002123F9 /* PASB_Bank_DEVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB98622D2B5A87DA002123F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9862142B5A87D8002123F9 /* PASB Bank DEV */;
+			targetProxy = CB98622C2B5A87DA002123F9 /* PBXContainerItemProxy */;
+		};
+		CB9862372B5A87DA002123F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9862142B5A87D8002123F9 /* PASB Bank DEV */;
+			targetProxy = CB9862362B5A87DA002123F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB98621E2B5A87D8002123F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB98621F2B5A87D8002123F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9862232B5A87DA002123F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9862242B5A87DA002123F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB98623D2B5A87DA002123F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB98623E2B5A87DA002123F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9862402B5A87DA002123F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B187AD52634A6B0F41E17189 /* Pods-PASB Bank DEV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PASB Bank DEV/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiya.pacificace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB9862412B5A87DA002123F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75DB02BA0B003326635DD5C /* Pods-PASB Bank DEV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PASB Bank DEV/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiya.pacificace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB9862432B5A87DA002123F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB2488701EFC6E7077F9469 /* Pods-PASB Bank DEVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiya.pacificace.PASB-Bank-DEVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PASB Bank DEV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PASB Bank DEV";
+			};
+			name = Debug;
+		};
+		CB9862442B5A87DA002123F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92CE4832D0EC904726538D6 /* Pods-PASB Bank DEVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiya.pacificace.PASB-Bank-DEVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PASB Bank DEV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PASB Bank DEV";
+			};
+			name = Release;
+		};
+		CB9862462B5A87DA002123F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0303050F29B82ED0486AA594 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiya.pacificace.PASB-Bank-DEVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PASB Bank DEV";
+			};
+			name = Debug;
+		};
+		CB9862472B5A87DA002123F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA7A3BB246E2B83E6229819 /* Pods-PASB Bank DEV-PASB Bank DEVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93UX93J85S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiya.pacificace.PASB-Bank-DEVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PASB Bank DEV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9862102B5A87D8002123F9 /* Build configuration list for PBXProject "PASB Bank DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB98623D2B5A87DA002123F9 /* Debug */,
+				CB98623E2B5A87DA002123F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB98623F2B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9862402B5A87DA002123F9 /* Debug */,
+				CB9862412B5A87DA002123F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9862422B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9862432B5A87DA002123F9 /* Debug */,
+				CB9862442B5A87DA002123F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9862452B5A87DA002123F9 /* Build configuration list for PBXNativeTarget "PASB Bank DEVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9862462B5A87DA002123F9 /* Debug */,
+				CB9862472B5A87DA002123F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB98620D2B5A87D8002123F9 /* Project object */;
+}

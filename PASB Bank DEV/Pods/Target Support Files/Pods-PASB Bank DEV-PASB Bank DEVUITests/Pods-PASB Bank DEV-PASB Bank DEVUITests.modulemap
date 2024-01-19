@@ -1,0 +1,6 @@
+framework module Pods_PASB_Bank_DEV_PASB_Bank_DEVUITests {
+  umbrella header "Pods-PASB Bank DEV-PASB Bank DEVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

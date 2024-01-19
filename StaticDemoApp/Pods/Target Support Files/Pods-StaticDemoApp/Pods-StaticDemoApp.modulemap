@@ -1,6 +1,0 @@
-framework module Pods_StaticDemoApp {
-  umbrella header "Pods-StaticDemoApp-umbrella.h"
-
-  export *
-  module * { export * }
-}
