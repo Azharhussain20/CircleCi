@@ -1,0 +1,14 @@
+version: 2.1
+
+jobs:
+  build:
+    macos:
+      xcode: "15.0"
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: |
+            xcodebuild -resolvePackageDependencies
+            xcodebuild -scheme StaticDemoApp -workspace StaticDemoApp.xcworkspace -destination 'platform=iOS Simulator,OS=17.0,name=iPhone 15 Pro' clean build
+
